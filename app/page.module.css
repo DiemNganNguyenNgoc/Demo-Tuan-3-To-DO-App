@@ -1,0 +1,41 @@
+.page {
+  display: grid;
+  grid-template-rows: 20px 1fr 20px;
+  align-items: center;
+  justify-items: center;
+  min-height: 100svh;
+  padding: 80px;
+  gap: 64px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  grid-row-start: 2;
+}
+
+.title{
+  color:rgb(3, 83, 174);
+}
+
+.submitButton{
+  font-size: 20px;
+  font-weight:700;
+  width: 100%;
+  color: white;
+  border-radius: 20px;
+  border-color: blue;
+  background-color: rgb(16, 125, 249);
+  padding: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.submitButton:hover
+{
+  background-color:  rgb(29, 133, 252);
+}
+
+
+

@@ -1,0 +1,12 @@
+.checkBox{
+    transform:scale(1.5);
+    width: 10%;
+}
+.checkBox:checked +span{
+    color: grey;
+    text-decoration: line-through;
+}
+
+.taskInList{
+    font-size: 20px;
+}
